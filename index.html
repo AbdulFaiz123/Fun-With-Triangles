@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Is Triangle</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenus.html">Calculate Hypotenuse</a>
-        <a href="area.html">Calculate Area</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Mark 12</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="index.html" class="link link-active">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="quiz.html" class="link link-active">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="hypotenus.html" class="link link-active">Calculate Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="area.html" class="link link-active">Calculate Area of Triangle</a>
+            </li>
+        </ul>
     </nav>
     <h1>Is Triangle</h1>
     <label for="angle1">angle1</label>
@@ -21,7 +33,7 @@
     <label for="angle3">angle3</label>
     <input type="number"class="angle-input"/>
 
-    <button id="is-triangle-btn">Is Triangvle</button>
+    <button id="is-triangle-btn">Is Triangle</button>
 
     <div id="output"></div>
 

@@ -4,28 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Quiz</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html">Is Triangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenus.html">Calculate Hypotenuse</a>
-        <a href="area.html">Calculate Area</a>
+    <nav class="navigation container">
+        <div class="nav-brand">Mark 12</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="index.html" class="link link-active">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="quiz.html" class="link link-active">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="hypotenus.html" class="link link-active">Calculate Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="area.html" class="link link-active">Calculate Area of Triangle</a>
+            </li>
+        </ul>
     </nav>
     <h1>Traingle Quiz</h1>
     <form  class="quiz-form">
         <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45deg ,angle2 = 45deg ?</p>
-            <label ><input type="radio" name="question1" value="45deg">45deg</label>
-            <label ><input type="radio" name="question1"value="60deg">60deg</label>
-            <label ><input type="radio" name="question1" value="90deg">90deg </label>
+            <label ><input class="radio-option" type="radio" name="question1" value="45deg">45deg</label>
+            <label ><input class="radio-option" type="radio" name="question1"value="60deg">60deg</label>
+            <label ><input class="radio-option" type="radio" name="question1" value="90deg">90deg </label>
         </div>
         <div class="question-container">
-            <p>Ifa traingle has angle of 90degrees what is it called ?</p>
-            <label ><input type="radio" name="question2" value="obtuse">obtuse</label>
-            <label ><input type="radio" name="question2" value="acute">acute</label>
-            <label ><input type="radio" name="question2" value="right angled">right angled </label>
+            <p>If a traingle has angle of 90degrees what is it called ?</p>
+            <label ><input class="radio-option" type="radio" name="question2" value="obtuse">obtuse</label>
+            <label ><input class="radio-option" type="radio" name="question2" value="acute">acute</label>
+            <label ><input class="radio-option" type="radio" name="question2" value="right angled">right angled </label>
         </div>
         
     </form>
